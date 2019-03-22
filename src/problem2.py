@@ -209,7 +209,7 @@ def problem3(string_of_characters):
     # Please note that here I didn't use the reverse string code provided above
     print('Reverse String: ', reverse)
     if reverse == string_of_characters:
-        print('The user entered a palendrome')
+        print('The user entered a palindrome')
     else:
         print('The user entered a normal string')
 
