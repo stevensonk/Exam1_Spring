@@ -206,7 +206,7 @@ def problem3(string_of_characters):
     reverse = ''
     for k in range(len(string_of_characters) - 1, -1, -1):
         reverse = reverse + string_of_characters[k]
-    # Please note that here I didn't use the reverse string code provided above
+    # Please note that here I didn't use the reverse string code provided
     print('Reverse String: ', reverse)
     if reverse == string_of_characters:
         print('The user entered a palindrome')
